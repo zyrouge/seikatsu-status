@@ -12,4 +12,4 @@ affected:
 section: issue
 ---
 
-They maybe down anytime.
+They maybe down anytime. Please wait for sometime!
