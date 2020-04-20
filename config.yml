@@ -185,7 +185,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  disableDarkMode: true
+  disableDarkMode: false
 
   # Should we show the logo or the title
   # of the status page?
