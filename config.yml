@@ -161,7 +161,7 @@ params:
   #
   # Default: true
   # BOOLEAN; `true`, `false`
-  useLargeHeaderDesign: false
+  useLargeHeaderDesign: true
 
   # Should incident history be separated
   # like in an archive view?
@@ -250,10 +250,10 @@ params:
   # down: "#e60000"
   # notice: "#24478f"
   brand: "#0a0c0f"
-  ok: "#008000"
-  disrupted: "#cc4400"
-  down: "#e60000"
-  notice: "#24478f"
+  ok: "#3bed56"
+  disrupted: "#ff8800"
+  down: "#ff0000"
+  notice: "#0385ff"
 
   # If the status page shows that
   # there are disruptions or outages
