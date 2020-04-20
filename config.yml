@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Status - Seikatsu
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -90,7 +90,7 @@ defaultContentLanguage: en
 # localhost should automatically work.
 #
 # Example: https://status.example.com/
-baseURL: https://cstate.mnts.lt
+baseURL: https://status.seikatsu.lt
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -121,10 +121,10 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: East Coast      
+    - name: Seikatsu Client
+      description: Bot Shards Statuses.
+      closed: false
+    #- name: East Coast
     - name: Uncategorized
       untitled: true
 
@@ -135,14 +135,14 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: East Coast
+      category: Seikatsu Client
+    - name: Shard 0
+      category: Seikatsu Client
     - name: API
-      description: The guts of the application.
+      description: Seikatsu Bot API.
       category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+    - name: Discord API
+      description: Official Discord Gateway.
       category: Uncategorized
 
   # What date format to use?
@@ -185,14 +185,14 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  disableDarkMode: false
+  disableDarkMode: true
 
   # Should we show the logo or the title
   # of the status page?
   #
   # Default: false
   # BOOLEAN; `true`, `false`
-  useLogo: true
+  useLogo: false
 
   # Where is the logo located, if one is
   # present at all?
